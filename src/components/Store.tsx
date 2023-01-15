@@ -7,6 +7,7 @@ import { BrandFilter } from '../filters/BrandFilter';
 import { GenderFilter } from '../filters/GenderFilter';
 import { SizeFilter } from '../filters/SizeFilter';
 import { SortBy } from '../filters/SortBy';
+import { useLocalStorage } from '../hooks/useLocalStorage';
 
 import { StoreItem } from './StoreItem';
 
@@ -21,10 +22,16 @@ type Item = {
 };
 
 export function Store() {
-  const [sortCriteria, setSortCriteria] = useState('priceLowToHigh');
-  const [sizeFilter, setSizeFilter] = useState('All');
-  const [brandFilter, setBrandFilter] = useState('All');
-  const [genderFilter, setGenderFilter] = useState('All');
+  const [sortCriteria, setSortCriteria] = useLocalStorage(
+    'sortCriteria',
+    'priceLowToHigh',
+  );
+  const [sizeFilter, setSizeFilter] = useLocalStorage('sizeFilter', 'All');
+  const [brandFilter, setBrandFilter] = useLocalStorage('brandFilter', 'All');
+  const [genderFilter, setGenderFilter] = useLocalStorage(
+    'genderFilter',
+    'All',
+  );
 
   function filterByGender(data: Item[], gender: string) {
     if (gender === 'All') {
