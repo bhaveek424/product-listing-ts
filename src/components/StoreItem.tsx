@@ -20,7 +20,6 @@ type StoreItemProps = {
   price: number;
   size: string;
   brand: string;
-  idealFor: string;
   imgUrl: string;
 };
 export function StoreItem({
@@ -29,7 +28,6 @@ export function StoreItem({
   price,
   size,
   brand,
-  idealFor,
   imgUrl,
 }: StoreItemProps) {
   const { increaseCartQty, decreaseCartQty, getItemQty, removeFromCart } =
@@ -41,6 +39,8 @@ export function StoreItem({
       <CardBody>
         <Image
           src={imgUrl}
+          boxSize="sm"
+          objectFit="cover"
           alt="Green double couch with wooden legs"
           borderRadius="lg"
         />

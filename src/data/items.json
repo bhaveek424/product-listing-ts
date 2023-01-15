@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "Product 1",
+    "name": "T shirt",
     "price": 2100,
     "size": "S",
-    "brand": "Brand A",
-    "idealFor": "Men",
-    "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    "brand": "Nike",
+    "gender": "Men",
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7305931f-118c-4256-a72e-6a43fa0c0a6b/sportswear-mens-long-sleeve-t-shirt-qwrWHM.png"
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "price": 200,
     "size": "M",
     "brand": "Brand B",
-    "idealFor": "Women",
+    "gender": "Women",
     "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
@@ -23,7 +23,7 @@
     "price": 150,
     "size": "L",
     "brand": "Brand A",
-    "idealFor": "Men",
+    "gender": "Men",
     "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
@@ -32,7 +32,7 @@
     "price": 50,
     "size": "S",
     "brand": "Brand C",
-    "idealFor": "Women",
+    "gender": "Women",
     "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
@@ -41,7 +41,7 @@
     "price": 250,
     "size": "XL",
     "brand": "Brand B",
-    "idealFor": "Men",
+    "gender": "Men",
     "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   },
   {
@@ -50,7 +50,7 @@
     "price": 75,
     "size": "M",
     "brand": "Brand C",
-    "idealFor": "Women",
+    "gender": "Women",
     "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
   }
 ]

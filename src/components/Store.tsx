@@ -1,16 +1,4 @@
-import {
-  Box,
-  Button,
-  Flex,
-  Grid,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuList,
-  Popover,
-  PopoverFooter,
-  Tag,
-} from '@chakra-ui/react';
+import { Box, Button, Flex, Grid, Tag } from '@chakra-ui/react';
 
 import { useState } from 'react';
 
@@ -22,27 +10,37 @@ import { SortBy } from '../filters/SortBy';
 
 import { StoreItem } from './StoreItem';
 
+type Item = {
+  id: number;
+  name: string;
+  brand: string;
+  price: number;
+  gender: string;
+  size: string;
+  imgUrl: string;
+};
+
 export function Store() {
   const [sortCriteria, setSortCriteria] = useState('priceLowToHigh');
   const [sizeFilter, setSizeFilter] = useState('All');
   const [brandFilter, setBrandFilter] = useState('All');
   const [genderFilter, setGenderFilter] = useState('All');
 
-  function filterByGender(data: any[], gender: string) {
+  function filterByGender(data: Item[], gender: string) {
     if (gender === 'All') {
       return data;
     } else {
       return data.filter((item) => item.gender === gender);
     }
   }
-  function filterByBrand(data: any[], brand: string) {
+  function filterByBrand(data: Item[], brand: string) {
     if (brand === 'All') {
       return data;
     } else {
       return data.filter((item) => item.brand === brand);
     }
   }
-  function filterBySize(data: any[], size: string) {
+  function filterBySize(data: Item[], size: string) {
     if (size === 'All') {
       return data;
     } else {
@@ -65,6 +63,7 @@ export function Store() {
     }
   }
 
+  /* handlers */
   const handleSort = (criteria: string) => {
     setSortCriteria(criteria);
     sortData(filteredProducts, criteria);
@@ -82,7 +81,7 @@ export function Store() {
 
   return (
     <>
-      <Flex>
+      <Flex ml="9">
         {/**Sort By feature */}
         <SortBy onSort={handleSort} />
         {/**Size Filter */}
@@ -146,6 +145,7 @@ export function Store() {
         ) : null}
       </Flex>
       <Grid
+        ml="9"
         templateColumns={[
           'repeat(1, 1fr)',
           'repeat(2, 1fr)',
@@ -157,7 +157,7 @@ export function Store() {
           .filter((item) => sizeFilter === 'All' || item.size === sizeFilter)
           .filter((item) => brandFilter === 'All' || item.brand === brandFilter)
           .filter(
-            (item) => genderFilter === 'All' || item.idealFor === genderFilter,
+            (item) => genderFilter === 'All' || item.gender === genderFilter,
           )
           .map((item) => (
             <Box key={item.id}>
