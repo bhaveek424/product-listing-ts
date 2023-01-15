@@ -6,7 +6,7 @@ export function Navbar() {
   const { openCart, cartQty, closeCart } = useShoppingCart();
   return (
     <Flex as="header" backgroundColor="blue.500" w="100%" zIndex={1} h="56px">
-      <Box textColor="white" paddingY="3" paddingX="3">
+      <Box textColor="white" fontSize="2xl" paddingY="3" paddingX="9">
         Flipkart
       </Box>
 

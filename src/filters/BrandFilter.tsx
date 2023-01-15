@@ -28,10 +28,11 @@ export function BrandFilter({ onBrandFilter }: SizeFilterProps) {
 
         <MenuList>
           <MenuItem onClick={() => handleBrand('All')}>All</MenuItem>
-          <MenuItem onClick={() => handleBrand('Brand A')}>Brand A</MenuItem>
-          <MenuItem onClick={() => handleBrand('Brand B')}>Brand B</MenuItem>
-          <MenuItem onClick={() => handleBrand('Brand C')}>Brand C</MenuItem>
-          <MenuItem onClick={() => handleBrand('Brand D')}>Brand D</MenuItem>
+          <MenuItem onClick={() => handleBrand('Nike')}>Nike</MenuItem>
+          <MenuItem onClick={() => handleBrand('Tommy Hilfiger')}>
+            Tommy Hilfiger
+          </MenuItem>
+          <MenuItem onClick={() => handleBrand('Adidas')}>Adidas</MenuItem>
         </MenuList>
       </Menu>
     </Popover>

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "T shirt",
+    "name": "T-shirt",
     "price": 2100,
     "size": "S",
     "brand": "Nike",
@@ -10,47 +10,56 @@
   },
   {
     "id": 2,
-    "name": "Product 2",
-    "price": 200,
+    "name": "Sweater",
+    "price": 5600,
     "size": "M",
-    "brand": "Brand B",
+    "brand": "Tommy Hilfiger",
     "gender": "Women",
-    "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    "imgUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/WW36981_ZEW_FNT?wid=1500&hei=2000&fmt=jpeg&qlt=90%2c0&resMode=trilin&op_usm=0.8%2c1.0%2c6%2c0&iccEmbed=0&op_sharpen=1"
   },
   {
     "id": 3,
-    "name": "Product 3",
-    "price": 150,
+    "name": "Jacket",
+    "price": 1500,
     "size": "L",
-    "brand": "Brand A",
+    "brand": "Tommy Hilfiger",
     "gender": "Men",
-    "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    "imgUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/MW18763_BDS_FNT?wid=1500&hei=2000&fmt=jpeg&qlt=90%2c0&resMode=trilin&op_usm=0.8%2c1.0%2c6%2c0&iccEmbed=0&op_sharpen=1"
   },
   {
     "id": 4,
-    "name": "Product 4",
+    "name": "T-shirt",
     "price": 50,
     "size": "S",
-    "brand": "Brand C",
+    "brand": "Nike",
     "gender": "Women",
-    "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/91893a71-a579-4cf5-a836-207b367b104b/sportswear-womens-t-shirt-DJjHLf.png"
   },
   {
     "id": 5,
-    "name": "Product 5",
-    "price": 250,
+    "name": "T-shirt",
+    "price": 2500,
     "size": "XL",
-    "brand": "Brand B",
+    "brand": "Tommy Hilfiger",
     "gender": "Men",
-    "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    "imgUrl": "https://shoptommy.scene7.com/is/image/ShopTommy/7849807RA_065_FNT?wid=1500&hei=2000&fmt=jpeg&qlt=90%2c0&resMode=trilin&op_usm=0.8%2c1.0%2c6%2c0&iccEmbed=0&op_sharpen=1"
   },
   {
     "id": 6,
-    "name": "Product 6",
-    "price": 75,
+    "name": "Jacket",
+    "price": 7500,
     "size": "M",
-    "brand": "Brand C",
+    "brand": "Nike",
     "gender": "Women",
-    "imgUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    "imgUrl": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e2d67a3a-a4cb-4f1a-a354-2376b3823f25/sportswear-icon-clash-womens-full-zip-jacket-l4CvB5.png"
+  },
+  {
+    "id": 7,
+    "name": "Hoodie",
+    "price": 7500,
+    "size": "M",
+    "brand": "Adidas",
+    "gender": "Men",
+    "imgUrl": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a16ac52841cb455a8c7cae4a00fa5c54_9366/Studio_Lounge_Fleece_Hoodie_Beige_HC5881_21_model.jpg"
   }
 ]
